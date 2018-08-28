@@ -1,0 +1,147 @@
+@media screen and (max-width: 768px){
+	.text-box-tv p{
+		display: none;
+	}
+
+	.header-bg
+	{
+		height: 180px;
+		top: -120px;
+	}
+
+	.text-box-tv img{
+		display: inline-block;
+		position: relative;
+		top: -180px;
+	}
+
+	#menu-tv{
+		display: none;
+	}
+
+	.breadcrumb{
+		display: none;
+	}
+
+	hr{
+		display: none;
+	}
+
+	/* CONTENT */
+	.about-content
+	{
+		position: relative;
+		top: -220px;
+	}
+
+	.dashed{
+		margin: 20px auto 20px;
+	}
+
+	.text-header-content
+	{
+		margin: auto 10px;
+		letter-spacing: 3px;
+	}
+
+	.row{
+		width: 100%;
+	}
+
+	.column {
+        display: block;
+        width: 100%;
+    }
+
+    /* ABOUT WORK */
+    #square{
+    	margin-left: 3px;
+    	left: 300px;
+    }
+    
+    .about-work{
+    	position: relative;
+    	top: -180px;
+    }
+
+    #about-work-table{
+    	width: 100%;
+    }
+
+    #about-work-table tr:first-child{
+    	height: 420px;
+    }
+
+    #about-work-table td.first-column{
+    	position: relative;
+    	top: 60px;	
+    }
+
+
+    #about-work-table tr{
+    	height: 350px;
+    }
+
+    #about-work-table th{
+		width: 100%;
+		display: block;
+	}
+
+	#about-work-table td{
+		display: block;
+		width: 100%;
+	}
+
+	.first-column span{
+		font-weight: bold;
+	}
+
+	#about-work-table td.second-column img.work1{
+		position: relative;
+		top: 120px;
+	}
+
+	#about-work-table td.second-column img{
+		width: 360px;
+		height: 200px;
+		position: relative;
+		top: 70px;
+		
+	}
+
+	/* NEXT WORK */
+	.next-work-text{
+		position: relative;
+		top: -200px;
+	}
+	.next-work-text p{
+		margin-bottom: 120px;
+		font-size: 22px;
+	}
+
+
+	/* CONTACT FOOTER */
+	.footer-info{
+		position: relative;
+		top: -300px;
+	}
+
+	.contact-footer p.envelope{
+		margin-left: 430px
+	}
+
+	/* FOOTER NAV */
+	.footer-menu{
+		position: relative;
+		top: -600px;
+	}
+
+	/* FOOTER */
+	footer{
+		position: relative;
+		top: -580px;
+	}
+
+
+
+}
